@@ -12,6 +12,8 @@
 		7846737820A44AA1004551AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7846737620A44AA1004551AC /* Main.storyboard */; };
 		7846737A20A44AA4004551AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7846737920A44AA4004551AC /* Assets.xcassets */; };
 		7846737D20A44AA4004551AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7846737B20A44AA4004551AC /* LaunchScreen.storyboard */; };
+		7846738920A4568D004551AC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846738820A4568D004551AC /* SignUpViewController.swift */; };
+		7846738B20A4581A004551AC /* FBsignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846738A20A4581A004551AC /* FBsignViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7846737920A44AA4004551AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7846737C20A44AA4004551AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7846737E20A44AA4004551AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7846738820A4568D004551AC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = Swaggy/Controller/SignUpViewController.swift; sourceTree = SOURCE_ROOT; };
+		7846738A20A4581A004551AC /* FBsignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBsignViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,48 @@
 		7846737120A44AA1004551AC /* Swaggy */ = {
 			isa = PBXGroup;
 			children = (
-				7846737220A44AA1004551AC /* AppDelegate.swift */,
-				7846737420A44AA1004551AC /* ViewController.swift */,
-				7846737620A44AA1004551AC /* Main.storyboard */,
-				7846737920A44AA4004551AC /* Assets.xcassets */,
-				7846737B20A44AA4004551AC /* LaunchScreen.storyboard */,
+				7846738720A44C14004551AC /* Model */,
+				7846738620A44C11004551AC /* Controller */,
+				7846738520A44C0E004551AC /* View */,
+				7846738420A44C03004551AC /* Supporting Files */,
 				7846737E20A44AA4004551AC /* Info.plist */,
 			);
 			path = Swaggy;
+			sourceTree = "<group>";
+		};
+		7846738420A44C03004551AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7846738520A44C0E004551AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7846737620A44AA1004551AC /* Main.storyboard */,
+				7846737920A44AA4004551AC /* Assets.xcassets */,
+				7846737B20A44AA4004551AC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7846738620A44C11004551AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7846738820A4568D004551AC /* SignUpViewController.swift */,
+				7846737220A44AA1004551AC /* AppDelegate.swift */,
+				7846737420A44AA1004551AC /* ViewController.swift */,
+				7846738A20A4581A004551AC /* FBsignViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7846738720A44C14004551AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7846738920A4568D004551AC /* SignUpViewController.swift in Sources */,
+				7846738B20A4581A004551AC /* FBsignViewController.swift in Sources */,
 				7846737520A44AA1004551AC /* ViewController.swift in Sources */,
 				7846737320A44AA1004551AC /* AppDelegate.swift in Sources */,
 			);
